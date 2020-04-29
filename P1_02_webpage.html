@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Resume</title>
+        <script src="https://kit.fontawesome.com/78179516b6.js" crossorigin="anonymous"></script>
+        <link href="bootstrap-4.4.1-dist/css/bootstrap.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        
+        <style>
+            body, html{
+                max-width: 100%;
+                height: 100%;
+            }
+            body {
+                margin: 2% 25px;
+                background-image: url(img/cherry-blossom_01.jpg);
+                background-repeat: repeat-y;
+                background-position: right;
+                background-size: cover;
+            }
+            p {
+                font-size: 1.1em;
+            }
+            #left {
+                background-color: #FFFDE7;
+                position: absolute;
+                width: 35%;
+                color: black;
+                text-align: center;
+                padding: 14px;
+                
+            }
+            .right {
+                background-color: #F8BBD0;
+                float: right;
+                width: 65%;
+                padding-left: 45px;
+            }
+            img{
+                border-radius: 40%;
+                margin-bottom: 25%;
+                margin-top: 25%;
+                width: 75%;
+                height: 55%;
+                box-shadow: -12px 7px #F8BBD0;
+            }
+            .header{
+                background-color: #5C6BC0;
+                text-align: center;
+                margin-bottom: 5%;
+                padding: 8px;
+                width: 90%;
+                margin-left: 5%;
+            }
+            #left > .col-sm-12{
+                padding: 15px;
+            }
+            #about_header{
+                margin-top: 15%;
+            }
+            #name, h3{
+                text-align: right;
+                width: 80%;
+            }
+            li{
+                list-style-type: none;
+            }
+            .right_header{
+                background-color: #FCE4EC;
+                padding: 5px;
+                position: relative;
+                right: -18%;
+            }
+            #experience{
+                margin-top: 10%;
+            }
+            #education{
+                margin-top: 5%;
+            }
+            hr{
+                border: #EC407A 5px solid;
+                background-color: #EC407A;
+                border-radius: 20px;
+            }
+            a{
+                color: #5C6BC0;
+            }
+            #name, #position{
+                position: relative;
+                right: -20%;
+            }
+            @media screen and (min-width: 768px){
+                p, li, a{
+                    font-size: 1.2em;
+                }
+                h5{
+                    font-size: 1.35em;
+                }
+                h4{
+                    font-size: 1.6em;
+                }
+                h3{
+                    font-size: 1.9em;
+                }
+                img{
+                    margin-top: 10%;
+                    margin-bottom: 10%;
+                }
+            }
+            @media screen and (max-width: 767px){
+                #left, #ed_exp{
+                    width: 100%;
+                    position: relative;
+                }
+                img{
+                    margin-bottom: 8%;
+                    width: 50%;
+                    height: 35%
+                }
+                hr{
+                    margin-right: 5%;
+                }
+                body{
+                    font-size: 1.3em;
+                }
+                #identity{
+                    position: absolute;
+                    top: 8%;
+                    margin-right: 5%;
+                    left: 5%;
+                    width: 90%;
+                    text-align: center;
+                }
+                .right_header{
+                    position: relative;
+                    right: -8%;
+                    text-align: center;
+                }
+                p{
+                    font-size: 1em;
+                }
+                h5{
+                    font-size: 1.1em;
+                }
+                h4{
+                    font-size: 1.2em;
+                }
+                h3{
+                    font-size: 1.35em;
+                }
+                h2{
+                    font-size: 1.4em;
+                }
+                h1{
+                    font-size: 1.5em;
+                }
+            }
+         
+        </style>
+    </head>
+    <body>
+        <section id="left">
+            <img src="img/profile_pic.jpg" width="275" alt="placeholder image">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2 id="contact_header" class="header">Contact</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12" id="address">
+                        <i class="fas fa-address-book"></i>
+                        <p><b>Address</b></p>
+                    <p>2114 Jasmine Path, Round Rock, TX 78664</p></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12" id="phone">
+                        <i class="fas fa-mobile-alt"></i>
+                         <p><b>
+                        Mobile</b></p>
+                    <p>210-325-8149</p></div> 
+                </div>
+                <div class="row">
+                    <div class="col-sm-12" id="email">
+                        <i class="far fa-envelope-open"></i>
+                        <p><b>Email</b></p>
+                    <p>thenderson1785@gmail.com</p></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12" id="website">
+                        <i class="fas fa-at"></i><p><b>Website</b></p>
+                    <a href="http://webtrain.austincc.edu/~thenderson/Capstone/index.html">Austin Community College Capstone</a></div>
+                </div>
+            </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2 id="about_header" class="header"><i class="fas fa-portrait"> About Me</i></h2>
+                    </div>
+            </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <p>My journey to Web Development was an interesting one. I first experienced coding in high school when we were introduced to the language C++. I liked the end product but not neccessarily all the work that went into it.</p><p>After I went to college, I discovered I was excelling more in my computer courses than in my regular courses. After gaining my degree, I decided to study 3D Animation combining my love for anime and computers. While studying, I found that I was better at animating characters than building them.</p>
+                            <p>Fast-forward some years, and my attention was brought to Web Development as a way to use my computer skills and get back to actual coding. One exposure was all it took to capture my attention and interest. Now, I look forward to my journey on this new path.</p>
+                        </div>
+                    </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 id="hobbies_header" class="header"><i class="fas fa-heart"> Hobbies</i></h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">Martial Arts</div>
+                <div class="col-sm-4">Bowling</div>
+                <div class="col-sm-4">Crochet</div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 id="skills_header" class="header"><i class="fas fa-code"> Skills</i></h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+                <div class="col-sm-6">
+                    <ul>
+                        <li>Bootstrap</li>
+                        <li>PHP</li>
+                        <li>Ajax</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <aside class="right" id="identity">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h1 id="name">Tasya Henderson</h1>
+                        <h3 id="position">Front-End Web Developer</h3>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <aside class="right" id="ed_exp">
+            <div id="education">
+                <h3 class="right_header"><i class="fas fa-university"> Education</i></h3>
+                <hr>
+                <article>
+                    <h4>College</h4>
+                    <h5>Texas Tech University</h5>
+                    <h5>Bachelors of Science in Family and Consumer Science</h5>
+                    <h6>Minors: Architecture, Interior Design, and Human Development and Family Studies (HDFS)</h6>
+                    <ul>
+                        <li>Aug 2003-Dec 2008</li>
+                    </ul>
+                </article>
+                <article>
+			     <h4>Certifications</h4>
+                    <div class="row">
+                        <div class="col-sm-6"><p>April - current</p></div>
+                        <div class="col-sm-6">
+                            <h5>Web Development</h5>
+                            <p>OpenClassrooms.com</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6"><p>September 2018 - October 2019</p></div>
+                        <div class="col-sm-6">
+                            <h5>Web Development</h5>
+                            <p>Austin Community College</p>
+                            <p>Round Rock, TX</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <p>April - May 2013</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <h5>C++ Programming</h5>
+                            <p>ExpertRating Online</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6"><p>June 2011 - December 2012</p></div>
+                        <div class="col-sm-6">
+                            <h5>Animation Production</h5>
+                            <p>Kolbe Film School</p>
+                            <p>Arvada, CO</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6"><p>January 2010 - July 2011</p></div>
+                        <div class="col-sm-6">
+                            <h5>3D Animation</h5>
+                            <p>Kolbe Film School</p>
+                            <p>Arvada, CO</p>
+                        </div>
+                    </div>
+		      </article>
+            </div>
+            <div id="experience">
+                <h3 class="right_header"><i class="fas fa-briefcase"> Experience</i></h3>
+                <hr>
+                <article>
+                    <div class="row">
+                        <div class="col-sm-6"><p>June 2017 - Current</p>
+                            <p>San Marcos, TX</p></div>
+                        <div class="col-sm-6">
+                            <h5>Amazon</h5>
+                            <p>Warehouse Associate I</p>
+                            <p>Picking customer orders from storage pods and placing them in totes to get packed</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6"><p>December 2010 - February 2019</p>
+                            <p>Colorado Springs, CO; Austin, TX</p></div>
+                        <div class="col-sm-6">
+                            <h5>RGIS, LLC</h5>
+                            <p>Inventory Supervisor/Associate</p>
+                            <p>Supervised teams from 3-40 people in small-medium stores (7-Eleven, Old Navy) to ensure an accurate count of the store's inventory for the quarter or year</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6"><p>January 2008 - July 2010</p>
+                            <p>San Antonio, TX</p></div>
+                        <div class="col-sm-6">
+                            <h5>LeadingEdge Personnel</h5>
+                            <p>Temporary Worker/Business Center Associate</p>
+                            <p>Worked in the Hyatt Business Center logging in guests onto computers and seeing to their shipping needs.</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </aside>
+    </body>
+</html>
