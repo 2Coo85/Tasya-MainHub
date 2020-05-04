@@ -38,6 +38,7 @@
                 float: right;
                 width: 65%;
                 padding-left: 45px;
+		padding-right: 10px;
             }
             img{
                 border-radius: 40%;
@@ -68,6 +69,9 @@
             li{
                 list-style-type: none;
             }
+	    div.col-sm-6{
+		column-gap: 10px;
+		}
             .right_header{
                 background-color: #FCE4EC;
                 padding: 5px;
@@ -113,9 +117,11 @@
 		@media screen and (min-width 480px) and (max-width 768px){
 			#left{
 				width: 35%;
+				padding: 5px;
 			}
 			.right{
 				width:65%;
+				padding: 5px;
 			}
 			#identity{
                     position: absolute;
@@ -147,6 +153,7 @@
                 #left, #ed_exp{
                     width: 100%;
                     position: relative;
+			padding: 5px;
                 }
 		.right{
 			padding-left: 15px;
@@ -269,14 +276,14 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-6">
+                <div class="col-sm-6 col-xs-12">
                     <ul>
                         <li>HTML5</li>
                         <li>CSS</li>
                         <li>JavaScript</li>
                     </ul>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-6 col-xs-12">
                     <ul>
                         <li>Bootstrap</li>
                         <li>PHP</li>
