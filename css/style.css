@@ -133,4 +133,7 @@ hr{
     main, aside{
         flex-direction: column;
     }
+    .date, .description{
+        width: 100%;
+    }
 }
