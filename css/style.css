@@ -139,4 +139,8 @@ hr{
     }
     .description{
         margin-left: 0px;
+    }
+    .right{
+        margin-left: 50px;
+    }
 }
