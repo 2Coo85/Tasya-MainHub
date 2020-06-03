@@ -137,4 +137,6 @@ hr{
     .date, .description{
         width: 100%;
     }
+    .description{
+        margin-left: 0px;
 }
