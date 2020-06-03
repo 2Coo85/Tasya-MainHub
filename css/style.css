@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    font-family:sans-serif;
+}
+
+#wrapper{
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 18px;
+}
+
+aside{
+    min-height: 800px;
+    flex: 28%;
+    background-color: #1A237E;
+    color: #FAFAFA;
+}
+
+main{
+    min-height: 800px;
+    flex: 68%;
+    vertical-align: top;
+    padding: 10px;
+}
+
+.rounded-circle{
+    height: 150px;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+}
+
+#contact{
+    min-height: 300px;
+}
+
+aside h3{
+    background-color: #A5D6A7;
+    color: #1A237E;
+    text-align: center;
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.contact-info{
+    margin-bottom: 50px
+}
+
+.contact-info p{
+    margin: 0 0 5px 8%;
+}
+.contact-info h5{
+    margin-left: 8%;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+#about p{
+    margin: 8%;
+    text-align: justify;
+}
+
+#name{
+    text-transform: uppercase;
+    font-weight: 300!important;
+    font-size: 3.25em;
+}
+
+.f-name{
+    color: #1A237E;
+}
+#position{
+    line-height: 1.2;
+    margin-top: -3%;
+    font-size: 30px;
+}
+
+#position span{
+    border-bottom: 2.25px solid #1A237E;
+}
+.right{
+    margin-left: 75px;
+}
+.resume-section{
+    min-height: 300px;
+}
+.resume-section h3{
+    font-size: 1.75rem;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.date, .contact-card{
+    display: inline-block;
+    width: 28%;
+    vertical-align: top;
+}
+
+.description{
+    display: inline-block;
+    width: 55%;
+    margin-left: 70px;
+}
+.description strong{
+    text-transform: uppercase;
+}
+.fas{
+    font-size: 40px;
+    width: 30%;
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+.fa-circle{
+    font-size: 12px;
+}
+.right i, hr{
+    color: #1A237E;
+}
+hr{
+    background-color: #1A237E;
+    height: 2px;
+}
+#about{
+    margin-bottom: 275px;
+}
+
+@media screen and (max-width: 767px){
+    main, aside{
+        flex-direction: column;
+    }
+}
