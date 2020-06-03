@@ -83,7 +83,7 @@ a{
     border-bottom: 2.25px solid #1A237E;
 }
 .right{
-    margin-left: 75px;
+    margin-left: 50px;
 }
 .resume-section{
     min-height: 300px;
@@ -139,8 +139,5 @@ hr{
     }
     .description{
         margin-left: 0px;
-    }
-    .right{
-        margin-left: 50px;
     }
 }
