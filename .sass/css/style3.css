@@ -1,0 +1,30 @@
+mixin background-style {
+  background-position: center;
+  background-size: cover;
+}
+
+html, body {
+  margin: 0;
+}
+
+.primary {
+  background-image: url("./img/green-waterfall.jpg");
+}
+
+nav {
+  position: relative;
+  left: 5%;
+}
+nav ul {
+  list-style-type: none;
+}
+nav li {
+  display: flex;
+}
+nav a {
+  display: flex;
+  flex-flow: column nowrap;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style3.css.map */
