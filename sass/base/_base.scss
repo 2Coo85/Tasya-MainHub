@@ -6,7 +6,8 @@ html, body{
 
 .primary, .secondary{
     @include background-style;
-}
+  
+  }
 
 .flex-container{
     display: flex;
