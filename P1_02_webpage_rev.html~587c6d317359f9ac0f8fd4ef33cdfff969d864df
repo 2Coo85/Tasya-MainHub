@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Resume</title>
+        <script src="https://kit.fontawesome.com/78179516b6.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <style>
+            #left{
+                background-color: #1A237E;
+                color: #FAFAFA;
+                height: 100%;
+                position: absolute;
+            }
+            .header{
+                background-color: #A5D6A7;
+                color: #1A237E;
+                text-align: center;
+                font-family:sans-serif;
+                width: 100%;
+                padding: 5px;
+            }
+            h1 b, h3 i, .fa-circle{
+                color: #1A237E;
+            }
+            .right_header{
+                border-bottom: 2.25px solid #1A237E;
+                padding-bottom: .5em;
+            }
+            p > i{
+                margin-right: .8em;
+            }
+            .fas .fa-circle{
+                background-color: #1A237E;
+            }
+            .right, #identity{
+                margin-left: 2em;
+                position: relative;
+            }
+            div > h5{
+                text-transform:uppercase;
+            }
+            span{
+                border-bottom: 2.25px solid #1A237E;
+            }
+            #identity h1{
+                font-size: 3.25em;
+            }
+            li{
+                list-style-type: none;
+            }
+            
+            @media screen and (min-width: 576px) and (max-width: 991px){
+                .hobbies{
+                    position: absolute;
+                    bottom: 100px;
+                    left: 1%;
+                    width: 100%;
+                    margin: 0;
+                }
+                .hobbies-icons{
+                    position: absolute;
+                    bottom: 25px;
+                    width: 100%;
+                    left: 15px;
+                    
+                }
+            }
+            @media screen and (min-width: 576px) and (max-width: 767px){
+                .right, #identity{
+                    margin-left: 0.5em;
+                }
+            }
+            @media screen and (max-width: 575px){
+                #identity{
+                    position: fixed;
+                    top: -20%;
+                    font-size: 1.5em;
+                }
+                #left{
+                    position: relative;
+                    top: 11%;
+                
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="container" style="position: absolute;">
+            <div class="row d-flex flex-sm-row">
+                <div class="col-sm-6 col-md-5 col-lg-4">
+                    <section id="left" class="mx-2 mt-sm-2" style="position: relative;">
+                        <div class="row pt-4 pb-3">
+                                <div class="col-12 mt-4">
+                                <img class="rounded-circle mx-auto d-block" src="img/profile_pic.jpg" width="200" alt="profile image"></div>
+                            </div>
+                        <div class="row">
+                                <div class="col-12 mb-3">
+                                    <h2 id="contact_header" class="header mt-3">Contact</h2>
+                                </div>
+                            </div>
+                        <div class="row px-3">
+                                <div class="col-sm-12" id="address">
+                                    <p><b>Address</b></p>
+                                <p>2114 Jasmine Path, Round Rock, TX 78664</p></div>
+                            </div>
+                        <div class="row px-3">
+                                <div class="col-sm-12" id="phone">
+                                     <p><b>
+                                    Mobile</b></p>
+                                <p>210-325-8149</p></div> 
+                            </div>
+                        <div class="row px-3">
+                                <div class="col-sm-12" id="email">
+                                    <p><b>Email</b></p>
+                                <p>thenderson1785@gmail.com</p></div>
+                            </div>
+                        <div class="row px-3">
+                            <div class="col-sm-12" id="website"><p><b>Website</b></p>
+                                <a href="http://webtrain.austincc.edu/~thenderson/Capstone/index.html">Austin Community College Capstone</a></div>
+                        </div>
+                        <div class="row">
+                                <div class="col-sm-12">
+                                    <h2 id="about_header" class="header my-4"> About Me</h2>
+                                </div>
+                            </div>
+                        <div class="row mb-5 px-3">
+                                    <div class="col-sm-12">
+                                        <p>My journey to Web Development was an interesting one. I first experienced coding in high school when we were introduced to the language C++. I liked the end product but not neccessarily all the work that went into it.</p><p>After I went to college, I discovered I was excelling more in my computer courses than in my regular courses. After gaining my degree, I decided to study 3D Animation combining my love for anime and computers. While studying, I found that I was better at animating characters than building them.</p>
+                                        <p>Fast-forward some years, and my attention was brought to Web Development as a way to use my computer skills and get back to actual coding. One exposure was all it took to capture my attention and interest. Now, I look forward to my journey on this new path.</p>
+                                    </div>
+                                </div>
+                        <div class="row hobbies">
+                            <div class="col-12">
+                                <h2 id="hobbies_header" class="header mt-5 mb-3">Hobbies</h2>
+                            </div>
+                        </div>
+                        <div class="row text-center pb-3 hobbies-icons">
+                            <div class="col-4"><h2><i class="fas fa-biking"></i></h2></div>
+                            <div class="col-4"><h2><i class="fas fa-book-reader"></i></h2></div>
+                            <div class="col-4"><h2><i class="fas fa-music"></i></h2></div>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-sm-6 col-md-7 col-lg-8">
+                    <section class="my-5 mb-sm-3" id="identity">
+                            <div class="row my-3">
+                                <div class="col-sm-12">
+                                    <h1 id="name" class="text-uppercase font-weight-light"><b class="font-weight-bold">Tasya</b> Henderson</h1>
+                                    <h3 id="position"><span>Front-E</span>nd Web Developer</h3>
+                                </div>
+                            </div>
+                    </section>
+                    <section class="right" id="ed_exp">
+                        <div id="education">
+                            <h3 class="right_header text-uppercase"><i class="fas fa-university mr-3"> </i> Education</h3>
+                            <section>
+                             <h4>Certifications</h4>
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-6"><p><i class="far fa-dot-circle"></i>April - current</p></div>
+                                    <div class="col-sm-12 col-md-6">
+                                        <h5>Web Development</h5>
+                                        <p>OpenClassrooms.com</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-6"><p><i class="fas fa-circle"></i>September 2018 - October 2019</p>
+                                    <p class="ml-4">Round Rock, TX</p></div>
+                                    <div class="col-sm-12 col-md-6">
+                                        <h5>Web Development</h5>
+                                        <p>Austin Community College</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-6">
+                                        <p><i class="fas fa-circle"></i>April - May 2013</p>
+                                    </div>
+                                    <div class="col-sm-12 col-md-6">
+                                        <h5>C++ Programming</h5>
+                                        <p>ExpertRating Online</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-6"><p><i class="fas fa-circle"></i>June 2011 - December 2012</p>
+                                    <p class="ml-4">Arvada, CO</p></div>
+                                    <div class="col-sm-12 col-md-6">
+                                        <h5>Animation Production</h5>
+                                        <p>Kolbe Film School</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-6"><p><i class="fas fa-circle"></i>January 2010 - July 2011</p>
+                                    <p class="ml-4">Arvada, CO</p></div>
+                                    <div class="col-sm-12 col-md-6">
+                                        <h5>3D Animation</h5>
+                                        <p>Kolbe Film School</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-6"><p><i class="fas fa-circle"></i>Aug 2003-Dec 2008</p>
+                                    <p class="ml-4">Lubbock, TX</p></div>
+                                    <div class="col-sm-12 col-md-6">
+                                <h5>Texas Tech University</h5>
+                                <h6>Bachelors of Science in Family and Consumer Science</h6>
+                                <p>Minors: Architecture, Interior Design, and Human Development and Family Studies (HDFS)</p>
+                                    </div>
+                                </div>
+                          </section>
+                        </div>
+                        <div id="experience">
+                            <h3 class="right_header text-uppercase"><i class="fas fa-briefcase mr-3"> </i> Experience</h3>
+                            <section>
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-6"><p><i class="far fa-dot-circle"></i>June 2017 - Current</p>
+                                        <p>San Marcos, TX</p></div>
+                                    <div class="col-sm-12 col-md-6">
+                                        <h5>Amazon</h5>
+                                        <p>Warehouse Associate I</p>
+                                        <p>Picking customer orders from storage pods and placing them in totes to get packed</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-6"><p><i class="fas fa-circle"></i>December 2010 - February 2019</p>
+                                        <p>Colorado Springs, CO; Austin, TX</p></div>
+                                    <div class="col-sm-12 col-md-6">
+                                        <h5>RGIS, LLC</h5>
+                                        <p>Inventory Supervisor/Associate</p>
+                                        <p>Supervised teams from 3-40 people in small-medium stores (7-Eleven, Old Navy) to ensure an accurate count of the store's inventory for the quarter or year</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-6"><p><i class="fas fa-circle"></i>January 2008 - July 2010</p>
+                                        <p>San Antonio, TX</p></div>
+                                    <div class="col-sm-12 col-md-6">
+                                        <h5>LeadingEdge Personnel</h5>
+                                        <p>Temporary Worker/Business Center Associate</p>
+                                        <p>Worked in the Hyatt Business Center logging in guests onto computers and seeing to their shipping needs.</p>
+                                    </div>
+                                </div>
+                            </section>
+            </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

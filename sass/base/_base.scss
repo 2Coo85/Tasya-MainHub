@@ -4,15 +4,8 @@ html, body{
     height: 100%;
 }
 
-.primary{
+#titleVideo{
     @include background-style;
-    background-image: url(img/green-waterfall.jpg);
-}
-
-.secondary{
-    @include background-style2;
-    background-image: url(img/gradient.jpg), url(img/blurry-waterfall.jpg);
-    background-blend-mode: overlay;
 }
 
 .flex-container{
