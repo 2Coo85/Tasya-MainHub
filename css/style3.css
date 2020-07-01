@@ -99,12 +99,22 @@ html, body {
   height: 100%;
 }
 
-#titleVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
+.primary {
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-image: url(img/green-waterfall.jpg);
+}
+
+.secondary {
+  background-position: center, center;
+  background-size: 100% 100%, 100% 100%;
+  background-repeat: no-repeat, no-repeat;
+  background-blend-mode: overlay;
+  background-attachment: scroll;
+  background-image: url(img/gradient.jpg), url(img/blurry-waterfall.jpg);
+  background-blend-mode: overlay;
 }
 
 .flex-container {
