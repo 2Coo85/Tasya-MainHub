@@ -93,21 +93,6 @@
     transform: rotate(45deg);
   }
 }
-@keyframes falling {
-  0% {
-    transform-origin: top;
-    transform: scaleY(0.5);
-  }
-  40% {
-    transform: scaleY(2);
-  }
-  80% {
-    transform: scaleY(1);
-  }
-  100% {
-    transform: scaleY(3);
-  }
-}
 html, body {
   margin: 0;
   width: 100%;
@@ -298,76 +283,6 @@ nav a:hover {
   border: 2px double #ffffff;
   pointer-events: all;
   color: #a2ff8f;
-}
-
-.st1 {
-  animation-delay: 0.3s;
-}
-
-.st2 {
-  animation-delay: 0.45s;
-}
-
-.st3 {
-  animation-delay: 0.6s;
-}
-
-.st4 {
-  animation-delay: 0.75s;
-}
-
-.st5 {
-  animation-delay: 0.9s;
-}
-
-.sm1 {
-  animation-delay: 0.3s;
-  animation-direction: reverse;
-}
-
-.sm2 {
-  animation-delay: 0.45s;
-  animation-direction: reverse;
-}
-
-.sm3 {
-  animation-delay: 0.6s;
-  animation-direction: reverse;
-}
-
-.sm4 {
-  animation-delay: 0.75s;
-  animation-direction: alternate;
-}
-
-.sm5 {
-  animation-delay: 0.9s;
-  animation-direction: alternate;
-}
-
-.sb1 {
-  animation-delay: 0.6s;
-  animation-direction: reverse;
-}
-
-.sb2 {
-  animation-delay: 0.8s;
-  animation-direction: alternate;
-}
-
-.sb3 {
-  animation-delay: 1s;
-  animation-direction: reverse;
-}
-
-.sb4 {
-  animation-delay: 1.2s;
-  animation-direction: alternate;
-}
-
-.sb5 {
-  animation-delay: 1.4s;
-  animation-direction: reverse;
 }
 
 .proj-page-body {
