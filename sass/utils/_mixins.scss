@@ -70,10 +70,23 @@
     @include text-style;
 }
 
-
-
 @mixin hover-over {
     border: inset 10px lighten($color: $textColor, $amount: 10);
     background-color: darken($color: $box_bkgd, $amount: 50);
     filter: blur(0);
+}
+
+@mixin waterfall-style{
+    width: 3vh;
+    height: 22.5vh;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 4%;
+}
+@mixin waterfall-streaks{
+    background-color: aqua;
+    border: solid .25px #ffffff;
+    height: 100%;
+    width: 3vh;
+    animation: falling .6s linear infinite both;
 }
