@@ -1,8 +1,8 @@
 {
-  "name": "project3",
+  "name": "tasya-mainhub",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Resume about me",
+  "main": "bootstrap.min.js",
   "scripts": {
     "sass": "sass --watch ./sass/mainStyle.scss:./css/style3.css"
   },
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/2Coo85/Tasya-MainHub.git"
   },
-  "author": "Tasya Henderson",
+  "author": "Tasya",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/2Coo85/Tasya-MainHub/issues"
