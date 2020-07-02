@@ -104,7 +104,7 @@ html, body {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-image: url(Tasya-MainHub/img/green-waterfall.jpg);
+  background-image: url(/img/green-waterfall.jpg);
 }
 
 .secondary {
@@ -113,7 +113,7 @@ html, body {
   background-repeat: no-repeat, no-repeat;
   background-blend-mode: overlay;
   background-attachment: scroll;
-  background-image: url(Tasya-MainHub/img/gradient.jpg), url(Tasya-MainHub/img/blurry-waterfall.jpg);
+  background-image: url(img/gradient.jpg), url(img/blurry-waterfall.jpg);
   background-blend-mode: overlay;
 }
 
@@ -513,7 +513,7 @@ nav a:hover {
 
 @media screen and (max-width: 600px) {
   .secondary {
-    background-image: url(Tasya-MainHub/img/gradient.jpg);
+    background-image: url(img/gradient.jpg);
     background-color: #095000;
     background-blend-mode: difference;
     background-attachment: fixed;
