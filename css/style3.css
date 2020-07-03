@@ -306,7 +306,7 @@ nav a:hover {
   display: flex;
   justify-content: flex-start;
   position: relative;
-  left: 23%;
+  left: 14%;
   filter: blur(2px);
 }
 .images img {
@@ -724,7 +724,7 @@ nav a:hover {
     align-items: center;
     margin-top: -20px;
     margin-right: 10%;
-    left: 8%;
+    left: 16%;
     margin-left: 15%;
     filter: none;
   }
@@ -914,7 +914,7 @@ nav a:hover {
   }
   .icons {
     font-size: 48px;
-    left: 20%;
+    left: 10%;
   }
   .icons a {
     margin-right: 100px;
