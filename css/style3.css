@@ -103,13 +103,13 @@ html, body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-image: url(img/green-waterfall.jpg);
 }
 
 .secondary {
   background-position: center, center;
-  background-size: cover, cover;
+  background-size: 100% 100%, 100% 100%;
   background-repeat: no-repeat, no-repeat;
   background-blend-mode: overlay;
   background-attachment: scroll;
@@ -947,6 +947,10 @@ nav a:hover {
     width: 40%;
   }
 
+  .page-header {
+    font-size: 1.5em;
+  }
+
   .top-box.info-box {
     margin-left: 20%;
   }
@@ -968,18 +972,14 @@ nav a:hover {
   }
 
   .images {
-    left: 18%;
+    left: 11%;
   }
   .images a {
     margin-right: 60px;
   }
 
   .proj-page-body {
-    width: 65%;
-  }
-
-  .resume-page-body {
-    width: 70%;
+    width: 76%;
   }
 
   @keyframes drop-down {

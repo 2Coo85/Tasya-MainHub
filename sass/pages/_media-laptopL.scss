@@ -5,6 +5,9 @@
     nav{
         width: 40%;
     }
+    .page-header{
+        font-size: 1.5em;
+    }
     .top-box.info-box{
         margin-left: 20%;
     }
@@ -21,16 +24,13 @@
         width: 75%;
     }
     .images{
-        left: 18%;
+        left: 11%;
         & a{
             margin-right: 60px;
         }
     }
     .proj-page-body{
-        width: 65%;
-    }
-    .resume-page-body{
-        width: 70%;
+        width: 76%;
     }
     @keyframes drop-down{
         0%{transform: scale(.5); opacity: 0;}

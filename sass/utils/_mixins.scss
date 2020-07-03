@@ -15,11 +15,11 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-attachment: fixed;
 }
 @mixin background-style2{
     background-position: center, center;
-    background-size: cover, cover;
+    background-size: 100% 100%, 100% 100%;
     background-repeat: no-repeat, no-repeat;
     background-blend-mode: overlay;
     background-attachment: scroll;
