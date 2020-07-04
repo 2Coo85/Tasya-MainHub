@@ -153,6 +153,7 @@ nav {
   font-size: 18px;
   width: 35%;
   margin-right: 2%;
+  margin-left: 2%;
 }
 nav ul {
   list-style-type: none;
@@ -382,10 +383,6 @@ nav a:hover {
   margin-top: 1%;
   margin-left: 35%;
   filter: blur(2px);
-}
-
-.contact-page-body {
-  width: 80%;
 }
 
 .address {
@@ -640,7 +637,7 @@ nav a:hover {
 
   .top-box.info-box, .bottom-box.info-box {
     width: 100%;
-    max-height: 300px;
+    max-height: 850px;
     margin-left: 1%;
     margin-right: 2%;
     filter: blur(0);
