@@ -152,7 +152,7 @@ nav {
   text-transform: uppercase;
   font-size: 18px;
   width: 35%;
-  margin-right: 2%;
+  margin-right: 3%;
   margin-left: 2%;
 }
 nav ul {
@@ -224,7 +224,7 @@ nav a:hover {
 .page-header {
   color: #a2ff8f;
   font-size: 1.75em;
-  margin-left: 3%;
+  margin-left: 5%;
   margin-bottom: 20px;
   width: 100%;
   display: inline-flex;
@@ -936,10 +936,6 @@ nav a:hover {
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1200px) {
-  main {
-    width: 55%;
-  }
-
   nav {
     width: 40%;
   }
