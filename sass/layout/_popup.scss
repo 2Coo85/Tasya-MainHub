@@ -12,6 +12,9 @@
     opacity: 0;
     box-shadow: 1px 1.5px 10px $shadowColor;
     pointer-events: none;
+    & a{
+        pointer-events: all;
+    }
     & img{
         float: left;
         filter: drop-shadow(-10px 10px 10px $textColor);
