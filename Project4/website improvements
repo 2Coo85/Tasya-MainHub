@@ -1,0 +1,15 @@
+Points to improve
+
+-add lang attribute to Home Page
+-give text a different color to add more contrast
+-update labels in form so that they are associated with corresponding input
+- update Contact page to make navigation consistent between both pages
+-add focus indicators for elements on page so that keyboard users can see what element they are at
+-add a meta description for second page
+-change link name from "page 2" to "Contact Me" and "other page" to "Home"
+-add alt attribute to images on second page
+-add heading to Contact page
+-update spacing between elements in footer and form
+-change sizing and margins of elements so that the page is more responsive for mobile
+-encode images and/or change formats for faster loading 
+-update sizing of images for faster loading
