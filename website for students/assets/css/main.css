@@ -1869,7 +1869,7 @@ body {
         margin-bottom: 0;
     }
 
-    #banner h2 {
+    #banner h1 {
         color: #ffffff;
         display: inline-block;
         font-size: 3.5em;
@@ -1891,7 +1891,7 @@ body {
             padding: 14em 0 11em 0;
         }
 
-        #banner h2 {
+        #banner h1 {
             font-size: 2.5em;
         }
 
@@ -1915,7 +1915,7 @@ body {
             display: none;
         }
 
-        #banner h2 {
+        #banner h1 {
             font-size: 2.25em;
         }
 
