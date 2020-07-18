@@ -657,7 +657,7 @@ label,
 p {
     font-family: helvetica;
     font-weight: 400;
-    color: #888 !important
+    color: #888
 }
 
 a{
@@ -667,8 +667,7 @@ a{
 #bloc-2-services p{
     color: #212121;
     text-shadow: 0px .5px #757575;
-    background-color: rgb(189,189,189,0.2);
-    font-size: 0.85em;
+    font-size: .9em;
 }
 
 .container {
@@ -1128,5 +1127,17 @@ h4 {
 @media screen and (min-width: 768px) and (max-width: 992px){
     .phrases{
         width: 98%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .center-block{
+        left: 38%;
+    }
+    #bloc-2-services h2{
+        font-size: 2em;
+    }
+    .bg-atlanta-20made-20sign h2{
+        left: 22%;
     }
 }
