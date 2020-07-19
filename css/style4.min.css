@@ -325,7 +325,8 @@ a:hover {
 .nav > li {
     float: left;
     margin-top: 4px;
-    font-size: 16px
+    font-size: 1em;
+    color: #1A237E;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -334,7 +335,8 @@ a:hover {
 
 .nav > li a:focus,
 .nav > li a:hover {
-    background: 0 0
+    background: 0 0;
+        border: 1px dotted black;
 }
 
 .navbar-toggle {
@@ -1122,6 +1124,32 @@ h4 {
 
 .phrases{
     width: 100%;
+}
+
+footer ul{
+    margin-top: 10px;
+}
+
+footer li{
+    margin-bottom: 10px;
+}
+
+footer h6{
+    color: #fff;
+    margin-top: 25px;
+}
+
+.social{
+    margin-top: 20px
+}
+
+.form-group{
+    margin-bottom: 25px;
+}
+
+.active{
+    font-weight: 600;
+    text-decoration: underline;
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px){
