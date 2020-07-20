@@ -90,11 +90,6 @@ a:hover {
     right: 0
 }
 
-.texture-paper::before {
-    background: url(img/texture-paper.png);
-    background-size: 280px 280px
-}
-
 .b-parallax {
     background-attachment: fixed
 }
@@ -849,8 +844,15 @@ h4 {
     background-image: url(img/lines_h2_bg.jpg)
 }
 
+
+.texture-paper::before {
+    background: url(img/texture-paper.png);
+    background-size: 280px 280px
+}
+
 .bg-atlanta-20made-20sign {
-    background-image: url(img/atlanta_made_sign.jpg)
+    background-blend-mode: screen;
+    background-image: url(img/texture-paper.png), url(img/atlanta_made_sign.jpg)
 }
 
 .bg-atlanta-20made-20sign-20orange {
