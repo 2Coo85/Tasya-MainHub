@@ -218,7 +218,6 @@ a:hover {
 
 .d-bloc .panel .a-btn,
 .l-bloc .a-btn,
-.l-bloc .navbar a,
 .l-bloc .navbar-brand,
 .l-bloc a .icon-lg,
 .l-bloc a .icon-md,
@@ -326,8 +325,9 @@ a:hover {
     float: left;
     margin-top: 4px;
     font-size: 1em;
-    color: #1A237E;
+    margin-right: 1em;
 }
+
 
 .navbar-nav .open .dropdown-menu > li > a {
     text-align: inherit
@@ -362,6 +362,10 @@ a:hover {
     float: right;
     position: relative;
     z-index: 2
+}
+
+.nav a{
+    color: #1A237E;
 }
 
 @media (min-width:768px) {
@@ -804,9 +808,11 @@ h4 {
     color: #364577 !important
 }
 
+
 .btn-atomic-tangerine {
-    background: #f3976c;
-    color: #fff !important
+    background: #FF5722;
+    color: #fff !important;
+    text-shadow: 2px 2px 5px #c27956;
 }
 
 .btn-atomic-tangerine:hover {
@@ -1103,14 +1109,8 @@ h4 {
     }
 }
 
-.center-block{
-    position: relative;
-    left: 41%;
-}
-
 .bg-atlanta-20made-20sign h2{
-    position: relative;
-    left: 36%
+    color: #def;
 }
 
 .col-md-offset-2 img{
@@ -1148,8 +1148,17 @@ footer h6{
 }
 
 .active{
+    color: #f3976c;
     font-weight: 600;
     text-decoration: underline;
+}
+
+label, .contactInfo{
+    color: #1A237E;
+}
+
+.hero-bloc-text{
+    color: #def;
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px){
@@ -1164,8 +1173,5 @@ footer h6{
     }
     #bloc-2-services h2{
         font-size: 2em;
-    }
-    .bg-atlanta-20made-20sign h2{
-        left: 22%;
     }
 }
