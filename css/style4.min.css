@@ -796,7 +796,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #f3976c
+    background-color: #BF360C
 }
 
 .tc-white {
@@ -805,7 +805,7 @@ h4 {
 
 
 .btn-atomic-tangerine {
-    background: #FF5722;
+    background: #BF360C;
     color: #fff !important;
     text-shadow: 2px 2px 5px #c27956;
 }
@@ -824,7 +824,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #f3976c !important
+    color: #BF360C !important
 }
 
 .ltc-atomic-tangerine:hover {
@@ -1163,7 +1163,10 @@ label, .contactInfo{
     color: #def;
 }
 
-
+.form-group input, .form-group textarea{
+    border: 1px solid #37474F;
+    color: #000;
+}
 
 @media screen and (min-width: 768px) and (max-width: 992px){
     .phrases{
